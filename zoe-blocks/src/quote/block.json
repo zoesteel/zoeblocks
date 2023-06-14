@@ -1,0 +1,55 @@
+{
+  "apiVersion": 3,
+  "title": "Quote",
+	"name": "zoe-blocks/quote",
+  "icon": "smiley",
+	"category": "layout",
+	"attributes": {
+    "quote": {
+      "type": "string",
+      "source": "html",
+      "selector": ".wp-block-zoe-blocks-quote__content"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "center" 
+    },
+    "quoteColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showIcon": {
+      "type": "boolean",
+      "default": "true"
+    },
+    "iconColor": {
+      "type": "string",
+      "default": ""
+    },
+    "iconSize": {
+      "type": "string",
+      "default": ""
+    },
+    "fontSize": {
+      "type": "string",
+      "default": "16px"
+    },
+    "author": {
+      "type": "string",
+      "source": "html",
+      "selector": ".wp-block-zoe-blocks-quote__author"
+    },
+    "showAuthor": {
+      "type": "boolean",
+      "default": "true"
+    },
+    "authorColor": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "zoe-blocks",
+	"editorScript": "file:index.js",
+	"editorStyle": "file:style.css",
+	"style": "file:style.css"
+}
